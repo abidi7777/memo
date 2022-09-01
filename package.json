@@ -1,0 +1,43 @@
+{
+  "name": "memo",
+  "version": "1.0.0",
+  "description": "A simple memoize HOF",
+  "main": "./dist/memo.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "export NODE_ENV=test && qunit --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abidi7777/memo.git"
+  },
+  "keywords": [
+    "memo",
+    "memoize"
+  ],
+  "author": "abidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abidi7777/memo/issues"
+  },
+  "homepage": "https://github.com/abidi7777/memo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/register": "^7.17.7",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "del": "^6.1.1",
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-qunit": "^7.3.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "qunit": "^2.19.1",
+    "sinon": "^14.0.0",
+    "through2": "^4.0.2"
+  }
+}
